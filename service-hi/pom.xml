@@ -11,7 +11,7 @@
     <groupId>com.duya.java</groupId>
     <artifactId>service-hi</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>eureka-server</name>
+    <name>service-hi</name>
     <description>Demo project for Spring Boot</description>
     <packaging>jar</packaging>
 
