@@ -13,14 +13,9 @@ import org.springframework.web.bind.annotation.RestController;
 @EnableEurekaClient
 @EnableDiscoveryClient
 @EnableFeignClients(basePackages = "com.duya")
-@RestController
 public class SericeFeignApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(SericeFeignApplication.class, args);
-    }
-    @GetMapping("/test")
-    public String test() {
-        return "test";
     }
 }
